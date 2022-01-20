@@ -10,9 +10,10 @@ import { HomeComponent } from "./home/home.component";
 import { FormsModule } from "@angular/forms";
 import { HttpClientModule } from "@angular/common/http";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { AddComponent } from './add/add.component';
 
 @NgModule({
-  declarations: [AppComponent, SearchComponent, TableComponent, HomeComponent],
+  declarations: [AppComponent, SearchComponent, TableComponent, HomeComponent, AddComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
