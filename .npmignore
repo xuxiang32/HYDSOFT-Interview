@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
 /tmp
 /out-tsc
 
@@ -16,6 +15,7 @@
 *.launch
 .settings/
 *.sublime-workspace
+
 
 # IDE - VSCode
 .vscode/*
@@ -32,11 +32,19 @@
 npm-debug.log
 testem.log
 /typings
+.angular-cli.json
 
 # e2e
+/e2e
 /e2e/*.js
 /e2e/*.map
 
 # System Files
 .DS_Store
 Thumbs.db
+protractor.conf.js
+package.json
+karma.conf.json
+tsconfig.json
+tslint.json
+/src
